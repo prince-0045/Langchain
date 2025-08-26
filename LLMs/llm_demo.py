@@ -2,6 +2,7 @@ from langchain_openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv() # load env file
+#we have to purchase openai api key😒😒😒
 
 # create instance of LLM
 llm=OpenAI(model="gpt-3.5-turbo-instruct")
